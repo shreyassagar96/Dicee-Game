@@ -1,0 +1,96 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    color: whitesmoke;
+    /* text-align: center; */
+    text-shadow: 5px 0 #232931;
+}
+
+p {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+
+    width: 80%;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 277px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+.btn:hover {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: rgb(121, 121, 233);
+}
+
+@media only screen and (max-width: 498px) {
+
+    h1 {
+        margin: 15px;
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        color: whitesmoke;
+        /* text-align: center; */
+        text-shadow: 5px 0 #232931;
+
+    }
+
+    .btn {
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 177px;
+        height: 44px;
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+
+    .btn:hover {
+        font-family: sans-serif;
+        font-size: 1.6rem;
+        color: whitesmoke;
+        font-weight: bolder;
+        background-color: rgb(121, 121, 233);
+    }
+
+    img {
+
+        width: 50%;
+    }
+
+}
